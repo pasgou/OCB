@@ -1,0 +1,145 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: POS Certification\n"
+"POT-Creation-Date: 2020-12-01 18:30+0100\n"
+"PO-Revision-Date: 2020-12-01 18:36+0100\n"
+"Last-Translator: Pascal GOUHIER <p.gouhier@khetys.fr>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: models/account_bank_statement.py:14
+#, python-format
+msgid ""
+"You cannot modify anything on a bank statement (name: %s) that was created "
+"by point of sale operations."
+msgstr ""
+"Vous ne pouvez rien modifier sur un relevé bancaire (nom : %s) qui a été "
+"créé par les opérations de point de vente."
+
+#: models/account_bank_statement.py:24
+#, python-format
+msgid ""
+"You cannot modify anything on a bank statement line (name: %s) that was "
+"created by point of sale operations."
+msgstr ""
+"Vous ne pouvez rien modifier sur une ligne de relevé bancaire (nom : %s) qui "
+"a été créée par les opérations de point de vente."
+
+#: models/account_fiscal_position.py:15
+msgid ""
+"You cannot modify a fiscal position used in a POS order. You should archive "
+"it and create a new one."
+msgstr ""
+"Vous ne pouvez pas modifier une position fiscale utilisée dans une vente du "
+"POS. Vous devez l’archiver et en créer une nouvelle."
+
+#: models/pos.py:47
+#, python-format
+msgid ""
+"This session has been opened another day. To comply with the French law, you "
+"should close sessions on a daily basis. Please close session %s and open a "
+"new one."
+msgstr ""
+"Cette session a été ouverte un autre jour. Pour vous conformer à la Loi "
+"Française, vous devez fermer les séances sur une base quotidienne. Veuillez "
+"clore la session %s et en ouvrir une nouvelle."
+
+#: models/pos.py:59
+#, python-format
+msgid ""
+"According to the French law, you cannot modify a %s. Forbidden fields: %s."
+msgstr ""
+"Selon la loi Française, vous ne pouvez pas modifier un %s. Champs "
+"interdits : %s."
+
+#: models/pos.py:79
+msgid ""
+"An error occured when computing the inalterability. Impossible to get the "
+"unique previous posted point of sale order."
+msgstr ""
+"Une erreur s’est produite lors du calcul de l’inaltérabilité. Impossible "
+"d’obtenir l’ordre unique précédent de point de vente affiché."
+
+#: models/pos.py:126
+#, python-format
+msgid ""
+"According to the French law, you cannot modify a point of sale order. "
+"Forbidden fields: %s."
+msgstr ""
+"Selon la loi Française, vous ne pouvez pas modifier un ordre de point de "
+"vente. Champs interdits : %s."
+
+#: models/pos.py:129
+msgid ""
+"You cannot overwrite the values ensuring the inalterability of the point of "
+"sale."
+msgstr ""
+"Vous ne pouvez pas écraser les valeurs assurant l’inaltérabilité du point de "
+"vente."
+
+#: models/pos.py:147
+#, python-format
+msgid "(Receipt ref.: %s)"
+msgstr "(Reçu Réf.: %s)"
+
+#: models/pos.py:157
+#, python-format
+msgid ""
+"There isn't any order flagged for data inalterability yet for the company "
+"%s. This mechanism only runs for point of sale orders generated after the "
+"installation of the module France - Certification CGI 286 I-3 bis. - POS"
+msgstr ""
+"Il n’y a pas encore de commande signalée pour l’inaltérabilité des données "
+"pour l’entreprise %s. Ce mécanisme ne s’exécute que pour les ordres de point "
+"de vente générés après l’installation du module France - Certification CGI "
+"286 I-3 bis. - POS (pos)"
+
+#: models/pos.py:162
+#, python-format
+msgid "Corrupted data on point of sale order with id %s."
+msgstr "Données corrompues sur l’ordre de point de vente avec id %s."
+
+#: models/pos.py:177
+#, python-format
+msgid ""
+"Successful test !\n"
+"\n"
+"                         The point of sale orders are guaranteed to be in "
+"their original and inalterable state\n"
+"                         From: %(start_order_name)s %(start_order_ref)s "
+"recorded on %(start_order_date)s\n"
+"                         To: %(end_order_name)s %(end_order_ref)s recorded "
+"on %(end_order_date)s\n"
+"\n"
+"                         For this report to be legally meaningful, please "
+"download your certification from your customer account on Odoo.com (Only for "
+"Odoo Enterprise users)."
+msgstr ""
+"Test réussi !\n"
+"\n"
+"                         Les ventes du point de vente sont garanties être "
+"dans leur état original et inaltérable\n"
+"                         À partir de : %(start_order_name)s "
+"%(start_order_ref)s enregistré sur %(start_order_date)s\n"
+"                         À : %(end_order_name)s %(end_order_ref)s enregistré "
+"sur %(end_order_date)s\n"
+"\n"
+"Pour que ce rapport soit juridiquement significatif, veuillez télécharger "
+"votre certification à partir de votre compte client sur Odoo.com (uniquement "
+"pour les utilisateurs d’Odoo Enterprise)."
+
+#: models/pos.py:195
+#, python-format
+msgid ""
+"According to the French law, you cannot modify a point of sale order line. "
+"Forbidden fields: %s."
+msgstr ""
+"Selon la loi Française, vous ne pouvez pas modifier une ligne de commande de "
+"point de vente. Champs interdits : %s."

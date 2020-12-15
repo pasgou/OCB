@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pascal GOUHIER\n"
+"POT-Creation-Date: 2020-12-01 11:27+0100\n"
+"PO-Revision-Date: 2020-12-01 11:39+0100\n"
+"Last-Translator: Pascal GOUHIER <p.gouhier@khetys.fr>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: models/account.py:36
+msgid ""
+"An error occured when computing the inalterability. Impossible to get the "
+"unique previous posted journal entry."
+msgstr ""
+"Une erreur s’est produite lors du calcul de l’inaltérabilité. Impossible "
+"d’obtenir l’entrée unique journal posté précédent."
+
+#: models/account.py:81
+#, python-format
+msgid ""
+"According to the French law, you cannot modify a journal entry in order for "
+"its posted data to be updated or deleted. Unauthorized field: %s."
+msgstr ""
+"Selon la loi Français, vous ne pouvez pas modifier une entrée de journal de "
+"telle façon que ses données affichées soient mises à jour ou supprimées. "
+"Champ non autorisé : %s."
+
+#: models/account.py:84
+msgid ""
+"You cannot overwrite the values ensuring the inalterability of the "
+"accounting."
+msgstr ""
+"Vous ne pouvez pas écraser les valeurs assurant l’inaltérabilité de la "
+"comptabilité."
+
+#: models/account.py:101
+msgid ""
+"You cannot modify a posted journal entry. This ensures its inalterability."
+msgstr ""
+"Vous ne pouvez pas modifier une entrée de journal publiée. Cela garantit son "
+"inaltérabilité."
+
+#: models/account.py:110
+#, python-format
+msgid "(ref.: %s)"
+msgstr "(réf.: %s)"
+
+#: models/account.py:120
+#, python-format
+msgid ""
+"There isn't any journal entry flagged for data inalterability yet for the "
+"company %s. This mechanism only runs for journal entries generated after the "
+"installation of the module France - Certification CGI 286 I-3 bis."
+msgstr ""
+"Il n’y a pas encore d’entrée de journal signalée pour l’inaltérabilité des "
+"données pour l’entreprise %s. Ce mécanisme ne s’exécute que pour les entrées "
+"de journal générées après l’installation du module France - Certification "
+"CGI 286 I-3 bis."
+
+#: models/account.py:125
+#, python-format
+msgid "Corrupted data on journal entry with id %s."
+msgstr "Données corrompues sur l’entrée du journal avec id %s."
+
+#: models/account.py:138
+#, python-format
+msgid ""
+"Successful test !\n"
+"\n"
+"                         The journal entries are guaranteed to be in their "
+"original and inalterable state\n"
+"                         From: %(start_move_name)s %(start_move_ref)s\n"
+"                         To: %(end_move_name)s %(end_move_ref)s\n"
+"\n"
+"                         For this report to be legally meaningful, please "
+"download your certification from your customer account on Odoo.com (Only for "
+"Odoo Enterprise users)."
+msgstr ""
+"Test réussi !\n"
+"\n"
+"Les entrées de journal sont garanties d’être dans leur état original et "
+"inaltérable\n"
+"                         À partir de : %(start_move_name)s "
+"%(start_move_ref)s\n"
+"                         À : %(end_move_name)s %(end_move_ref)s\n"
+"\n"
+"Pour que ce rapport soit juridiquement significatif, veuillez télécharger "
+"votre certification à partir de votre compte client sur Odoo.com (uniquement "
+"pour les utilisateurs d’Odoo Enterprise)."
+
+#: models/account.py:156
+#, python-format
+msgid ""
+"According to the French law, you cannot modify a journal item in order for "
+"its posted data to be updated or deleted. Unauthorized field: %s."
+msgstr ""
+"Selon la loi Française, vous ne pouvez pas modifier une écriture de telle "
+"façon que ses données affichées soient mises à jour ou supprimées. Champ non "
+"autorisé : %s."
+
+#: models/account.py:167 models/account.py:187 models/account.py:196
+#, python-format
+msgid ""
+"According to the French law, you cannot modify a journal in order for its "
+"posted data to be updated or deleted. Unauthorized field: %s."
+msgstr ""
+"Selon la loi Français, vous ne pouvez pas modifier un journal de telle façon "
+"que ses données affichées soient mises à jour ou supprimées. Champ non "
+"autorisé : %s."
+
+#: models/account.py:177
+#, python-format
+msgid ""
+"It is not permitted to disable the data inalterability in this journal (%s) "
+"since journal entries have already been protected."
+msgstr ""
+"Il n’est pas permis de désactiver l’inaltérabilité des données dans ce "
+"journal (%s) puisque les écritures ont déjà été protégées."
